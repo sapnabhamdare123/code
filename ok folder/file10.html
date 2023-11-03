@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic layout</title>
+    <style>
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(120, 187, 255);
+            margin: 0;
+            padding: 0;
+        }
+        #wrapper{
+            border: 2px solid black;
+            width: 1000px;
+            background:rgb(48, 144, 235);
+            margin:  0 auto;
+        }
+        #header{
+            background: palevioletred;
+            height: 100px;
+        }
+        #menu{
+            background:  lightsalmon;
+        }
+        #menu{
+            li{
+                display: inline-block;
+            }
+        }
+        #footer{
+            background:  lightsalmon;
+        }
+        #sidebar{
+            background: rgb(207, 106, 69);
+            width: 200px;
+            float: right bottom;
+        }
+        #content{
+            width: 800px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header"><h1>hello world</h1></div>
+
+        <div id="menu">
+            <ul>
+                <li> <a href="">home</a></li>
+                <li> <a href=""> about us</a></li>
+                <li> <a href="">city</a></li>
+                <li> <a href="">color pink</a></li>
+                
+            </ul>
+        </div>
+        <div id="content ">
+            <h2>Design basic layout</h2>
+        <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+
+        </p>
+        </div>
+        <div id="sidebar">
+            <ul>
+                <li><a href="">home</a> </li>
+                <li><a href="">park</a> </li>
+                <li><a href="">garden</a> </li>
+                <li><a href="">bulding</a> </li>
+            </ul>
+        </div>
+        <div id="footer">
+            prink@2223.greate.point.2023
+        </div>
+
+    </div>
+    <br><br>
+    <h1>css z-index</h1>
+    <div id="box1">a</div>
+    <div id="box2">b</div>
+    <div id="box3">c</div>
+</body>
+</html>
